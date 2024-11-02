@@ -1,0 +1,10 @@
+population=80000
+tot_lit=(population*48)/100
+tot_men=(population*52)/100
+tot_men_lit=(population*35)/100
+tot_female=population-tot_men
+tot_men_ilit=tot_men - tot_men_lit
+tot_female_lit= tot_lit - tot_men_lit
+tot_female_ilit=tot_female - tot_female_lit
+print('Total Illiterte of men= ',tot_men_ilit)
+print('Total Illiterate of women= ',tot_female_ilit)

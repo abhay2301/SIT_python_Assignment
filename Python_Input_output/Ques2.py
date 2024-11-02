@@ -1,0 +1,9 @@
+Distance=float(input('Enter the distance between two cities: '))
+meter=Distance*1000
+feet=Distance*3280.83
+inches=Distance*39370.07
+cm=Distance*100000
+print('Distance in meter= ',meter)
+print('Distance in feet=',feet)
+print('Distance in Inches= ',inches)
+print('Distance in centimeter= ',cm)
